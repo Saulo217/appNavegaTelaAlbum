@@ -5,11 +5,9 @@ import { Menu } from '../../components/Menu';
 export function Home() {
     return (
         <View style={styles.container}>
-            <Text style={{ color: '#000'}}>
-                Minas Gerais é o segundo estado mais populoso do Brasil.
-                Concentra grandes áreas industriais e aglomerados urbanos, 
-                além de ser importante na extração de recursos minerais.
-            </Text>
+            <Text style={{ color: '#000', alignItems: 'center', fontWeight: 'bold', paddingBottom: 50}}> Minas Gerais </Text>
+            <Text style={{ color: '#000', alignItems: 'center', fontWeight: 'bold', paddingBottom: 50}}> Quantidade de Habitantes: 20,87 milhões </Text>
+            <Text style={{ color: '#000', alignItems: 'center', fontWeight: 'bold', paddingBottom: 50}}> Área Territorial: 586.528 km²</Text>
             <Menu></Menu>
         </View>
     );
@@ -18,7 +16,7 @@ export function Home() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: "#fff",
+        backgroundColor: "#f7991e",
         justifyContent: 'center',
         alignItems: 'center'
     },

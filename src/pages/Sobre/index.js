@@ -14,7 +14,7 @@ export function Sobre() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: "#fff",
+        backgroundColor: "#f7991e",
         justifyContent: 'center',
         alignItems: 'center'
     },

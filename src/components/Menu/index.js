@@ -25,7 +25,7 @@ export function Menu() {
     }
 
     function renderClosedMenu() {
-        return renderIcon('add', 'white');
+        return renderIcon('add', 'black');
     }
 
     function renderOpenMenu() {
@@ -36,7 +36,7 @@ export function Menu() {
                     <Link to={{ screen: 'Album' }} onPress={() => toogleMenu()} style={styles.text} children='Album'></Link>
                     <Link to={{ screen: 'Sobre' }} onPress={() => toogleMenu()} style={styles.text} children='Sobre'></Link>
                 </View>
-                {renderIcon('arrow-down', 'white')}
+                {renderIcon('arrow-down', 'black')}
             </View>
         );
     }
@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
         height: 50,
         borderRadius: 50,
         right: 30, bottom: 30,
-        backgroundColor: "#8257e6",
+        backgroundColor: "#f5f12a",
         justifyContent: 'center',
         alignItems: 'center',
     },
@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
         position: 'absolute',
         width: 130,
         height: 145,
-        backgroundColor: '#8257e6',
+        backgroundColor: '#f5f12a',
         borderRadius: 10,
         right: 30, bottom: 30,
         flexDirection: 'column'
